@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Counter App</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+</head>
+<body>
+    <main id="score-main-container">
+        <div class="individual-score-container">
+            <h3>HOME</h3>
+            <h4 id="home-score-el">0</h4>
+            <div class="score-btn-container">
+                <button id="home-one-point-btn">+1</button>
+                <button id="home-two-points-btn">+2</button>
+                <button id="home-three-points-btn">+3</button>
+            </div>
+            
+        </div>
+        <div class="individual-score-container">
+            <h3>GUEST</h3>
+            <h4 id="guest-score-el">0</h4>
+            <div class="score-btn-container">
+                <button id="guest-one-point-btn">+1</button>
+                <button id="guest-two-points-btn">+2</button>
+                <button id="guest-three-points-btn">+3</button>
+            </div>
+
+        </div>
+    </main>
+    <button id="reset-score-el">Reset Scores</button>
+    <script src="index.js"></script>
+</body>
+</html>
